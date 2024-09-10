@@ -21,8 +21,27 @@ button{
     border: none;
     font-size: 20px;
     padding: 15px 28px;
+    cursor: pointer;
 }
-header{
+button:hover{
+    background: #16ec3a;
+}
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color:#272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+header, #hot-deal{
     background-color: rgba(229, 84, 115, 0.10);
 }
 .container{
@@ -51,4 +70,139 @@ header{
 .banner .banner-img img{
     width: 100%;
     vertical-align: middle;
+}
+/* featured */
+#featured{
+    padding: 100px 0;
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+.section-content .flower .flower-img{
+    background-color: #eb9cad;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 15px 0px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.section-content .flower .flower-img img{
+    width: 100%;
+}
+.section-content .flower .pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .green{
+    background: rgba(71, 125, 17, 0.15)
+}
+.section-content .flower p{
+    color: #272727;
+    font-family: Lato;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    line-height: 35px;   
+}
+
+/* middle section */
+.icon-png{
+    display: flex;
+    justify-content: space-around;
+} 
+/* Hot Deal Section */
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    margin-bottom: 0px;
+    padding: 100px 0px;
+}
+#hot-deal .hot-deal-text{
+    /* max-width: 445px; */
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-text h2{
+    color:#272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* margin-bottom: 24px; */
+}
+#hot-deal .hot-deal-text h2 .important{
+    color: #E55473;
+
+}
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+
+/* Instagram */
+.section-heading{
+    margin-bottom: 40px;
+}
+.rose-flower{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 40px; */
+}
+/* search box */
+#newsletter{
+    margin: 128px 0px;
+}
+.newsletter-main{
+    background-image: url(../images/Rectangle\ 9.png);
+    padding: 122px 0px;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto; 
+    display: flex;
+    gap: 10px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    /* outline: 1px solid green; */
+}
+/* footer floweshop */ 
+#FlowerShop .foot-heading-f h2{
+    text-align: center;
+    color: #fff;
+}
+.foot-heading-f .important{
+    color:#E55473
+}
+#FlowerShop{
+    padding: 120px;
+    text-align: center;
+    width: 1280px;
+    height: 449px;
+    background-color: #111010;
+}
+.foot-heading-f p{
+    color: #fff;
+}
+#FlowerShop p{
+    color: #f5e4e4af;
 }
